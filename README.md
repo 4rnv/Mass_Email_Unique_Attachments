@@ -16,6 +16,7 @@ The `smtp_server` depends on which mail provider you are using. Common servers f
   - smtp.gmail.com
 - Outlook
   - smtp.office365.com	/ smtp-mail.outlook.com
+
 The password to be entered in `smtp_password` is generated from your email provider settings.
 - https://hotter.io/docs/email-accounts/secure-app-gmail/
 - https://superuser.com/questions/1521236/how-to-allow-less-secure-app-access-in-microsoft-email
