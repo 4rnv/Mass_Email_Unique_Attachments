@@ -10,16 +10,16 @@ Reads data from a CSV file with email addresses and the names of the files which
 There are two scripts, the native script will use the Outlook or Windows Mail to send the mails. The mails will be sent from your currently logged-in mail id. This script is suitable for Windows.
 The SMTP script allows you to setup a SMTP server to send mails. Follow the comment instructions in the script to setup an SMTP server. This requires you to allow alternative sign-in from your email provider. 
 The `smtp_server` depends on which mail provider you are using. Common servers for major providers are:
-      - Yahoo!
-      -- smtp.mail.yahoo.com
-      - Gmail
-      -- smtp.gmail.com
-      - Outlook
-      -- smtp.office365.com	/ smtp-mail.outlook.com
+- Yahoo!
+  - smtp.mail.yahoo.com
+- Gmail
+  - smtp.gmail.com
+- Outlook
+  - smtp.office365.com	/ smtp-mail.outlook.com
 The password to be entered in `smtp_password` is generated from your email provider settings.
-      - https://hotter.io/docs/email-accounts/secure-app-gmail/
-      - https://superuser.com/questions/1521236/how-to-allow-less-secure-app-access-in-microsoft-email
-      - https://help.inspectionsupport.com/en/articles/392427-enable-less-secure-apps-for-smtp-use-isn-yahoo-mail
+- https://hotter.io/docs/email-accounts/secure-app-gmail/
+- https://superuser.com/questions/1521236/how-to-allow-less-secure-app-access-in-microsoft-email
+- https://help.inspectionsupport.com/en/articles/392427-enable-less-secure-apps-for-smtp-use-isn-yahoo-mail
       
 The first script is suitable for users who don't wish to setup an SMTP server, or don't want to generate a less secure key.
 
