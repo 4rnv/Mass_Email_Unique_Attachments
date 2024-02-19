@@ -29,9 +29,8 @@ for index, row in df.iterrows():
 
     if os.path.exists(pdf_file_path):
         newmail.Attachments.Add(pdf_file_path)
+        newmail.Send()
     else:
         print(f"PDF file not found for {row['name']}")
-
-    newmail.Send()
 
 # Note: This script will send emails as soon as it's run. Be careful!
